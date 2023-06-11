@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 1em 2em;
+    width: 100%;
+    height: 100px;
+    font-weight: bold;
+}
+
+.control{
+    display: flex;
+}
+
+.nav-bar{
+    display: flex;
+    align-items:center;
+    padding-left: 3em;
+}
+
+.nav-bar .nav-items{
+    padding-left: 3em;
+}
+
+.option{
+    margin-right: 4em;
+    display: flex;
+    align-items: center;
+}
+
+.sign{
+    margin-left: 1.5em;
+    display: flex;
+}
+
+.sign-items{
+    padding: 0 1em;
+}
+
+.sign-items+ .sign-items{
+    border-left: solid 1px;
+}
+
+.nav-items,.sign-items{
+    text-decoration: none;
+}
+
+.nav-items::after,.sign-items::after{
+    content: " ";
+    display: block;
+    height: 3px;
+    background-color: rgb(231, 45, 45);
+    margin-top: 2px;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+
+.nav-items:hover::after,.sign-items:hover::after{
+    transform: scale(1);
+}
+
+.bodywraper{
+    width: 100%;
+    height: 4300px;
+    background-color: black;
+}
+
+.phan1{
+    background-image: linear-gradient(0deg,black,rgba(61, 57, 57, 0.8)),url(../webxemphim/image/baner-eternal.jpg);
+    width: 100%;
+    height: 2000px;
+    position: relative;
+    overflow: hidden;
+    height: 30vh;
+    min-height: 800px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.wraper1{
+    width: 1100px;
+    margin-left: 250px;
+    margin: auto;
+    display: flex;
+}
+
+.infofilm{
+    margin: 80px 0px;
+}
+
+h1{
+    max-width: 70%;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.phimhanhdong:hover{
+    opacity: .6;
+}
+
+.click{
+    display: flex;
+    margin: 10px 0;
+}
+
+.clicktrailer{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #3898ec;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.clicktrailer:hover{
+    opacity: .8;
+}
+
+.clickwatch{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f30000;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.clickwatch:hover{
+    opacity: .8;
+}
+
+.p{
+    margin-bottom: 10px;
+}
+
+.wraper2{
+    width: 1100px;
+    margin: auto;
+    height: 800px;
+}
+
+.content{
+    margin: auto;
+    width: 800px;
+    height: 800px;
+
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 60px;
+    color: rgb(231, 231, 231);
+}
+
+h2{
+    color: #fa2e2e;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.list img:hover{
+    opacity: .7;
+}
+
+.list h3:hover{
+    color: rgb(235, 62, 62);
+}
+
+.phimlehot h4:hover{
+    color: rgb(235, 62, 62);
+}
+
+.phim:hover{
+    opacity: .6;
+}
+
+.search{
+    margin-left: 100px;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: none;  
+    padding-left: 10px;
+    color: black; 
+}
+
+.button{
+    border:none solid white;
+    border-radius: 10px;
+    width: 100px; 
+    height: 40px;
+    background-color: black;
+}
+
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(180deg,black,rgba(109, 73, 73, 0.8)),url(../webxemphim/image/banerlogin.jpg);
+    background-position: 0 0,50% 50%;
+    font-size: 13px;
+}
+
+.info-wraper{
+    width: 1100px;
+    height: 150px;
+    margin: auto;
+}
+
+.info-row{
+    float: left;
+    display: flex;
+}
+
+.info-link{
+    display: block;
+    margin-top: 20px;
+}
+
+.info-social-link{
+    display: flex;
+    margin-top: 20px;
+}
+
+.info-social-titel{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.info-social-link img{
+    width: 25px;
+    height: 25px;
+}
+
+.info-column{
+    margin-left: 150px;
+}
+
+.info-link:hover{
+    color: rgb(216, 47, 47);
+}
+
+.info-social-titel:hover{
+    color: rgb(216, 47, 47);
+}

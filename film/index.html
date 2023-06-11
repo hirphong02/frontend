@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Phim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="control">
+            <div class="logo">
+                <a href="#">
+                    <img style="height: 50px; width: 200px; margin-left: 5em;" src="../webxemphim/image/logo.svg">
+                </a>
+            </div>
+
+            <div class="nav-bar">
+                <a href="#phimmoi" class="nav-items">Phim Mới</a>
+                <a href="../webxemphim/filmle.html" class="nav-items">Phim Lẻ</a>
+                <a href="#phimbo" class="nav-items">Phim Bộ</a>
+                <a href="#phimhoathinh" class="nav-items">Phim Hoạt Hình</a>
+                <a href="#phimchieurap" class="nav-items">Phim Chiếu Rạp</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="bodywraper" style="background-image: url(../webxemphim/image/banner2.png);">
+        <div class="wraper">
+        
+
+            <div class="form">
+                <input class="search" type="search" placeholder="Tìm kiếm...">
+                <button class="button" onclick="search">Tìm Kiếm</button>      
+            </div>
+            <div>
+                <div class="content1">         
+                    <div id="phimbomoi">
+                        <div class="header-list"  style="display: flex;">
+                            <div class="logo">
+                                <h1>Phim Bộ mới</h1>  
+                            </div>  
+                            
+                            <div class="chose">
+                                <ul id="chose">
+                                    <li><a href="#">Tất Cả Phim</a></li>
+                                    <li><a href="#">Sắp Chiếu</a></li>
+                                    <li><a href="#">Phim Mới</a></li>
+                                </ul>
+                            </div>
+                        </div> 
+                        
+                        <div class="list">
+                            <div style="display: flex;">
+
+                                <div style="margin-left:90px; width: 180px;">
+                                    <a href="infor.html"><img style="height: 250px; border-radius: 10px; width: 180px;" src="../webxemphim/image/pic1.jpg" alt=""></a>
+                                    <br>
+                                    <a><img style="width: 100px; " src="../webxemphim/image/star5.jpg"></a>
+                                    <a href="infor.html"><h3>Eternal - Chủng Tộc Bất Tử</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim"  style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>    
+                                       
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/vohiep.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Võ Hiệp - Swordsmen (2022) - HD Thuyết Minh</h3></a>   
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>      
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/thapnguyetvihanh.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/star5.jpg">
+                                    <a href="#"><h3>Thập Nguyệt Vi Thành</h3></a>  
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>       
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/alive.webp" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/star5.jpg">
+                                    <a href="#"><h3>Alive - Sống Sót (Phim 2022)</h3></a>  
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Kinh Dị</a>
+                                    </div>       
+                                </div>
+                            </div>
+
+                            <div style="display: flex; margin-top: 30px;">
+
+                                <div style="margin-left:90px; width: 180px;">
+                                    <a href="#"><img class="saigon" style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/saigontrongconmua.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/star5.jpg">
+                                    <a href="#"><h3>Sài Gòn Trong Cơn Mưa - 2022 Thuyết Minh</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Tình Cảm</a>
+                                    </div>         
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/thienmenhanhhung.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/star5.jpg">
+                                    <a href="#"><h3>Thiên Mệnh Anh Hùng - Bức Huyết Thư - 2012</h3></a> 
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>        
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/chiendich.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Chiến Dịch Overlord - Operation Overlord</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>        
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/downfall.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Downfall: The Case Against Boeing (2022)</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>         
+                                </div> 
+                            </div>
+
+                        </div>
+
+                        <div class="list">
+                            <div style="display: flex;">
+
+                                <div style="margin-left:90px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/tuoi21.jpeg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Tuổi 25, Tuổi 21 - Twenty Five, Twenty One (2022)</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Tình Cảm</a>
+                                    </div>         
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/xácong.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/star5.jpg">
+                                    <a href="#"><h3>Xác Sống (Phần 11) - The Walking Dead (Season 11)</h3></a> 
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Kinh Dị</a>
+                                    </div>        
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/ngaymai.jpeg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/star5.jpg">
+                                    <a href="#"><h3>Ngày Mai - Tomorrow (2022)</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Tình Cảm</a>
+                                    </div>         
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/cuaanh.jpeg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Công Chúa Của Ảnh Đế - Be My Princess (2022)</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Tình Cảm</a>
+                                    </div>         
+                                </div>
+                                
+                            </div>
+
+                            <div style="display: flex; margin-top: 30px;">
+
+                                <div style="margin-left:90px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/leeminhoo.jpeg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/star5.jpg">
+                                    <a href="#"><h3>Pachinko 2022 (Lee Min Ho)</h3></a> 
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>        
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/thoitiet.jpeg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/star5.jpg">
+                                    <a href="#"><h3>Dự Báo Tình Yêu Và Thời Tiết - Forecasting Love and Weather</h3></a>\
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Tình Cảm</a>
+                                    </div>         
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/yeulydi.jpeg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Yêu (Kết Hôn Và Ly Dị) 3 - Love (ft. Marriage and Divorce) 3 (2022)</h3></a> 
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Tình Cảm</a>
+                                    </div>        
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/tq.jpeg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Thượng Thực (Hứa Khải | Ngô Cẩn Ngôn) - Royal Feast (2022)</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Cổ Trang</a>
+                                    </div>         
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div> 
+
+                    <div id="phimlemoi">
+                        <div class="header-list"  style="display: flex;">
+                            <div class="logo">
+                                <h1>Phim Lẻ mới</h1>  
+                            </div>  
+                        </div> 
+                        
+                        <div class="list">
+                            <div style="display: flex;">
+
+                                <div style="margin-left:90px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/phatkhau.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Phát Khâu Thiên Quan: Di Tích Côn Lôn - Faqiu: The Lost Legend</h3></a> 
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Cổ Trang</a>
+                                    </div>        
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/thutinh.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Thú Tính - Exploited (2022)</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Kinh Dị</a>
+                                    </div>         
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/amsat.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Kế Hoạch Ám Sát - Panama (2022)</h3></a> 
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>        
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/biénau.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Dị Biến Của Biển Sâu - Deep Sea Variability</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Cổ Trang</a>
+                                    </div>         
+                                </div>
+                                
+                            </div>
+
+                            <div style="display: flex; margin-top: 30px;">
+
+                                <div style="margin-left:90px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/life.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Cuộc Đời Để Lại - In Good Hands</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Tình Cảm</a>
+                                    </div>         
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/deep.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Oán Hận Thẳm Sâu - Deep Water</h3></a>   
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Tình Cảm</a>
+                                    </div>      
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/danhan.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Dã Nhân Thần Nông - Shennong Savage</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Cổ Trang</a>
+                                    </div>         
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/chienthan.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Chiến Thần Đồ Ma - Fighting Darksider</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Cổ Trang</a>
+                                    </div>         
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>    
+                    
+                    <div id="phimchieurap">
+                        <div class="header-list"  style="display: flex;">
+                            <div class="logo">
+                                <h1>Phim Chiếu Rạp</h1>  
+                            </div>  
+                        </div> 
+                        
+                        <div class="list">
+                            <div style="display: flex;">
+
+                                <div style="margin-left:90px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/quaixe.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Quái Xế Giao Hàng - Special Delivery</h3></a> 
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>        
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/nguoinhen.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Người Nhện: Không Còn Nhà - Spider-Man: No Way Home (2021)</h3></a>  
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>       
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/hotel.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Khách Sạn Huyền Bí 4: Ma Cà Rồng Biến Hình - Hotel Transylvania 4: Transformania (2022)</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hoạt Hình</a>
+                                    </div>         
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/haitac.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Hải Tặc 2: Kho Báu Hoàng Gia Cuối Cùng - The Pirates: Goblin Flag</h3></a>  
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Cổ Trang</a>
+                                    </div>       
+                                </div>
+                                
+                            </div>
+
+                            <div style="display: flex; margin-top: 30px;">
+
+                                <div style="margin-left:90px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/dog.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Clifford Chú Chó Đỏ Khổng Lồ - Clifford The Big Red Dog</h3></a> 
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Tình Cảm</a>
+                                    </div>         
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/quydu.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Resident Evil: Quỷ Dữ Trỗi Dậy - Resident Evil: Welcome To Raccoon City</h3></a> 
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Kinh dị</a>
+                                    </div>         
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/sangchi.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Shang-Chi Và Huyền Thoại Thập Luân - Shang-Chi And The Legend Of The Ten Rings</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>          
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/notimetodie.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Không Phải Lúc Chết - No Time To Die</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hành Động</a>
+                                    </div>          
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div class="phimhoathinh">
+                        <div class="header-list"  style="display: flex;">
+                            <div class="logo">
+                                <h1>Phim Hoạt Hình</h1>  
+                            </div>  
+                        </div> 
+                        
+                        <div class="list">
+                            <div style="display: flex;">
+
+                                <div style="margin-left:90px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/thatnghiepchuyensinh.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/star5.jpg">
+                                    <a href="#"><h3>Thất Nghiệp Chuyển Sinh (Phần 1, 2) - Mushoku Tensei: Jobless Reincarnation (Season 1, 2)</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hoạt Hình</a>
+                                    </div>          
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/toicothenhinthaychung.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Tôi Có Thể Nhìn Thấy Chúng - Mieruko-chan</h3></a>  
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hoạt Hình</a>
+                                    </div>        
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/tinhthanbien.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Tinh Thần Biến (Phần 3)</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hoạt Hình</a>
+                                    </div>          
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/boruto.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Boruto: Naruto Hậu Sinh Khả Úy - Boruto: Naruto Next Generations</h3></a> 
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hoạt Hình</a>
+                                    </div>         
+                                </div>
+                                
+                            </div>
+
+                            <div style="display: flex; margin-top: 30px;">
+
+                                <div style="margin-left:90px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/thieuniencahanh.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Thiếu Niên Ca Hành (Phần 2)</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hoạt Hình</a>
+                                    </div>          
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/phamnhantutien.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/4 sao.png">
+                                    <a href="#"><h3>Phàm Nhân Tu Tiên (Phần 2)</h3></a>  
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hoạt Hình</a>
+                                    </div>        
+                                </div>
+
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/thegioihoanmi.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/3 sao.png">
+                                    <a href="#"><h3>Thế Giới Hoàn Mỹ - Perfect World</h3></a>
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hoạt Hình</a>
+                                    </div>          
+                                </div> 
+                                
+                                <div style="margin-left:30px; width: 180px;">
+                                    <a href="#"><img style="height: 250px; border-radius: 10px; width: 170px;" src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                    <br>
+                                    <img style="width: 100px; " src="../webxemphim/image/star5.jpg">
+                                    <a href="#"><h3>Vua Hải Tặc - One Piece</h3></a>   
+                                    <div style="display: flex;">
+                                        <img style="width: 17px; margin-top: 10px" src="../webxemphim/image/tag.png"> 
+                                        <a class="phim" style="text-decoration: underline; margin-left: 10px; margin-top: 10px; font-size: 15px; color: grey;" href="#">Phim Hoạt Hình</a>
+                                    </div>       
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+                </div>  
+                
+                <div class="content2">
+                    <div class="phimbohot">
+                            <div class="logo-content2">
+                                <h3>Phim Bộ Hot</h3>  
+                            </div>  
+
+                            <div class="box-scroll">
+                                <div style="margin-left:10px; width: 180px; display: flex">
+                                    <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 30px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                    <br>
+                                    <div style="margin-left: 10px; margin-top: 40px;">                                       
+                                        <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                        <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                    </div>                                                                               
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+                            </div>  
+                    </div>
+                    <div class="phimlehot">
+                        
+                            <div class="logo-content2">
+                                <h3>Phim Lẻ Hot</h3>  
+                            </div>  
+
+                            <div class="box-scroll">
+                                <div style="margin-left:10px; width: 180px; display: flex">
+                                    <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 30px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                    <br>
+                                    <div style="margin-left: 10px; margin-top: 40px;">                                       
+                                        <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                        <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                    </div>                                                                               
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div style="margin-left:10px; width: 180px; display: flex">
+                                        <a href="#"><img style="height: 80px; border-radius: 10px; width: 60px;  margin-top: 10px; " src="../webxemphim/image/onepice.jpg" alt=""></a>
+                                        <br>
+                                        <div style="margin-left: 10px; margin-top: 30px;">                                       
+                                            <a href="#"><h4 style="color: aliceblue; width: 150px; ">Vua Hải Tặc - One Piece</h4></a>
+                                            <img style="width: 80px; " src="../webxemphim/image/star5.jpg">
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <footer class="footer">
+        <div class="info">
+            <div class="info-wraper">
+                <div class="info-row">
+                    <div>
+                        <a href="https://www.facebook.com/vu.phongcr/" class="info-link">Liên Hệ</a>
+                        <a href="#" class="info-link">Giới Thiệu</a>
+                        <a href="#" class="info-link">Bản Quyền</a>
+                    </div>
+
+                    <div class="info-column">
+                        <a href="#phimbomoi" class="info-link">Phim Bộ</a>
+                        <a href="#phimlemoi" class="info-link">Phim Lẻ</a>
+                        <a href="#phimchieurap" class="info-link">Phim Chiếu Rạp</a>
+                    </div>
+
+                    <div class="info-column">
+                        <a href="https://www.facebook.com/vu.phongcr" class="info-social-link">
+                            <img src="../webxemphim/image/facebook.png" alt="">
+                            <div class="info-social-titel">Facebook</div>
+                        </a>
+                        <a href="https://www.instagram.com/haiiphog/" class="info-social-link">
+                            <img src="../webxemphim/image/instagram-2-icon-14-256.png" alt="">
+                            <div class="info-social-titel">Instagram</div>
+                        </a>
+                        <a href="#" class="info-social-link">
+                            <img src="../webxemphim/image//twiter.png" alt="">
+                            <div class="info-social-titel">Twitter</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr style="width: 1100px; ;margin: 0 auto;height: 1px; background-color: rgb(255, 0, 0); border: none; margin-top: 20px;">
+        </div>
+        <div class="bottom">
+        </div>
+
+        <div class="company">
+            <div class="about">
+                <p style="font-size: 15px;">Contact - Liên hệ</p>
+                <p id="p">Người thực hiện : Vũ Hải Phong - Nguyễn Văn Thể</p>
+                <p id="p">Phone: 092.790.5586</p>
+                <p id="p">Email : hirphong111@gmail.com</p>
+                <p id="p">Hours: 08:00 - 18:30 hằng ngày từ thứ 2 đến thứ 7</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+section .img-bg{
+    background-image:linear-gradient(0deg,black,rgba(41, 38, 38, 0.8)), url(/webxemphim/image/banerlogin.jpg);
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.logo{  
+    margin-top: 3em;
+    margin-left: 10px;
+}
+
+section .noi-dung{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+section .noi-dung .form{
+    width: 50%;
+}
+
+
+section .noi-dung .login h2{
+    color: #607d8b;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ff4545;
+    display: inline-block;
+    letter-spacing: 1px;
+    
+}
+
+section .noi-dung .login .input-form{
+    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+section .noi-dung .form .input-form span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: rgb(216, 47, 47);
+    letter-spacing: 1px;
+    
+}
+
+section .noi-dung .form .input-form input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 10px;   
+}
+section .noi-dung .form .input-form input[type="submit"]{
+    background: rgb(216, 47, 47);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
+
+section .noi-dung .form .input-form input[type="submit"]:hover{
+    background: rgb(216, 47, 47);
+}
+section .nho-dang-nhap{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+section .noi-dung .form .input-form p{
+    color: #607d8b;
+    width: 80%;
+}
+
+section .noi-dung .form .input-form p a{
+    color: rgb(216, 47, 47);
+}
+
+section .noi-dung .form h3{
+    color: #607d8b;
+    text-align: center;
+    margin: 80px 0 10px;
+    font-weight: 500;
+}
+
+section .noi-dung .form .icon-dang-nhap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .noi-dung .form .icon-dang-nhap li{
+    list-style: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .noi-dung .form .icon-dang-nhap li i{
+    font-size: 24px;
+    
+}
+
+@media (max-width: 768px){
+    section .img-bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    section .noi-dung{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        float: left;
+    }
+    section .noi-dung .form{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 60%;
+        padding: 40px;
+        background-color: white;
+        margin: 50px;
+    }
+    section .noi-dung .form h3{
+        color: #607d8b;
+        text-align: center;
+        margin: 30px 0 10px;
+        font-weight: 500;
+    }
+}
+
+.footer{
+    width: 1480px;
+    height: 550px;
+    margin: auto;
+    background-color: #000000;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.head{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.head:hover{
+    color: red;
+}
+
+li >a{
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+}
+
+li{
+    margin-top: 1.4em;
+}
+
+li a:hover{
+    color: rgb(175, 0, 0);
+}

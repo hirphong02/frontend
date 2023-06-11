@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 100%;
+    height: 150px;
+}
+
+.frame {
+    width: 100%;
+    height: 1000px;
+}
+.img-background {
+    background-image:linear-gradient(0deg,black,rgba(41, 38, 38, 0.8)), url(../webxemphim/image/banerlogin.jpg);
+    width: 1480px;
+    margin: auto;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.form {
+    width: 40%;
+    height: 800px;
+    float: left;
+}
+.form-1 {
+    width: 75%;
+    height: 600px;
+    margin: auto;
+    margin-top: 200px;
+}
+input {
+    border-width: 0px 0px 1px 0px;
+    border-bottom: 1px solid rgb(100, 46, 46);
+}
+.button {
+    width: 100px;
+    height: 60px;
+    margin: auto;
+}
+.title {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(213, 1, 1);
+    font-size: 35px;
+
+}
+.input01 {
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+}
+.button-1 {
+    width: 100px;
+    height: 60px;
+    font-size: 17px;
+    background-color: rgb(176, 170, 170);
+}
+.content {
+    width: 60%;
+    height: 800px;
+    float: left;
+}
+.content .frame-content {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid;
+    background-image: url(../webxemphim/image/radio3.jpg);
+}
+
+.footer{
+    width: 1480px;
+    height: 550px;
+    margin: auto;
+    background-color: #000000;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.head{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.head:hover{
+    color: red;
+}
+
+li >a{
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+}
+
+li{
+    margin-top: 1.4em;
+}
+
+li a:hover{
+    color: rgb(175, 0, 0);
+}

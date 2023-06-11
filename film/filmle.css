@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.wrapper{   
+    width: 1480px;
+    height: 2000px;
+    margin: auto;
+}
+
+.head{
+    width: 1480px;
+    height: 100px;
+    background-image: url(../webxemphim/image/banner2.png);
+}
+
+.logo{
+    float: left;
+    width: 80%;
+    height: 100px;
+    display: flex;
+}
+
+.logo img{
+    width: 150px;
+    margin-left: 100px;
+}
+.logo ul{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.logo li{
+    margin-left: 50px;
+}
+
+.logo li a{
+    color: white;
+}
+
+.logo li a::after{
+    content: " ";
+    display: block;
+    height: 3px;
+    background-color: rgb(231, 45, 45);
+    margin-top: 2px;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+
+.logo li a:hover::after{
+    transform: scale(1);
+}
+
+select{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+option{
+    color: black;
+}
+
+.film{
+    width: 1480px;
+    height: 2300px;
+    background-image: url(../webxemphim/image/banner2.png);
+}
+
+.allfilm{
+    width: 1300px;
+    height: 1750px;
+    margin: auto;
+}
+
+.logo1{
+    float: left;
+    margin-left: 10px;
+    color: rgb(216, 47, 47);
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.list{
+    margin-top: 50px;
+}
+
+.list h3{
+    color: white;
+}
+
+.list img:hover{
+    opacity: .7;
+}
+
+.list h3:hover{
+    color: rgb(235, 62, 62);
+}
+
+.phim:hover{
+    opacity: .6;
+}
+
+.button{
+    width: 1480px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.button button{
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+    color: black;
+}
+
+.button button:hover{
+    background-color: red;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-position: 0 0,50% 50%;
+    font-size: 13px;
+}
+
+.info-wraper{
+    width: 1100px;
+    height: 150px;
+    margin: auto;
+}
+
+.info-row{
+    float: left;
+    display: flex;
+}
+
+.info-link{
+    display: block;
+    margin-top: 20px;
+    color: white;
+}
+
+.info-social-link{
+    display: flex;
+    margin-top: 20px;
+}
+
+.info-social-titel{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+}
+
+.info-social-link img{
+    width: 25px;
+    height: 25px;
+}
+
+.info-column{
+    margin-left: 150px;
+}
+
+.info-link:hover{
+    color: rgb(216, 47, 47);
+}
+
+.info-social-titel:hover{
+    color: rgb(216, 47, 47);
+}
+
+.company{
+    width: 1100px;
+    height: 100px;
+    margin:20px auto;
+    color: white;
+    font-size: 13px;
+    display: flex;
+}
+
+.about{
+    width: 30%;
+}
+
+#p{
+    margin-top: 15px;
+}
